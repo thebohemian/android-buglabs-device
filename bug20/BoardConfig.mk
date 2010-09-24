@@ -13,3 +13,5 @@ BOARD_USES_ALSA_AUDIO := true
 BUILD_WITH_ALSA_UTILS := true
 
 USE_CAMERA_STUB := true
+
+include frameworks/base/data/sounds/AudioPackage2.mk
