@@ -16,8 +16,8 @@ BUILD_WITH_ALSA_UTILS := true
 USE_CAMERA_STUB := true
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/vold.conf:system/etc/vold.conf \
-	$(LOCAL_PATH)/vold.fstab:system/etc/vold.fstab \
-	$(LOCAL_PATH)/asound.conf:system/etc/asound.conf
+	device/buglabs/bug20/vold.conf:system/etc/vold.conf \
+	device/buglabs/bug20/vold.fstab:system/etc/vold.fstab \
+	device/buglabs/bug20/asound.conf:system/etc/asound.conf
 
 include frameworks/base/data/sounds/AudioPackage2.mk
