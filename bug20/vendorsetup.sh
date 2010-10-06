@@ -23,4 +23,4 @@ echo "Adding build combos for BugLabs bug20"
 
 add_lunch_combo bug20-eng
 add_lunch_combo bug20-debug
-add_lunch_combo full_bug20-userdebug
+add_lunch_combo bug20-userdebug
