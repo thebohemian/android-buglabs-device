@@ -1,6 +1,11 @@
 # Definitions for the Bug20 board
 
 TARGET_NO_BOOTLOADER := true
+TARGET_NO_KERNEL := true
+
+# Enable this when there is a custom init.rc
+#TARGET_PROVIDES_INIT_RC := true
+
 TARGET_USE_GENERIC_AUDIO := true
 
 TARGET_CPU_ABI := armeabi-v7a
