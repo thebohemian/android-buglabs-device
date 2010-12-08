@@ -25,4 +25,10 @@ PRODUCT_COPY_FILES += \
 	device/buglabs/bug20/vold.fstab:system/etc/vold.fstab \
 	device/buglabs/bug20/asound.conf:system/etc/asound.conf
 
+# this needs to be set, when you use TARGET_BOARD_PLATFORM := omap3
+# if not, the user land is missing OMX stuff and multi media
+# such as sound is broken
+HARDWARE_OMX := true
+
+
 include frameworks/base/data/sounds/AudioPackage2.mk
